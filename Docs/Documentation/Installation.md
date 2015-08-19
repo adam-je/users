@@ -39,8 +39,7 @@ Plugin::load('Users', ['routes' => true, 'bootstrap' => true]);
 
 Customization
 ----------
-
-config/bootstrap.php
+(please specify direcory name)/config/bootstrap.php
 ```
 Configure::write('Users.config', ['users']);
 Plugin::load('Users', ['routes' => true, 'bootstrap' => true]);
@@ -60,7 +59,7 @@ For more details, check the Configuration doc page
 Load the UsersAuth Component
 ---------------------
 
-Load the Component in your src/Controller/AppController.php, and use the passed Component configuration to customize the Users Plugin:
+Load the Component in your (please specify direcory name)/src/Controller/AppController.php, and use the passed Component configuration to customize the Users Plugin:
 
 ```
     public function initialize()
