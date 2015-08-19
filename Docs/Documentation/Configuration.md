@@ -49,7 +49,8 @@ the AuthComponent and the Opauth component for your application.
 If you prefer to setup AuthComponent by yourself, you'll need to load AuthComponent before UsersAuthComponent
 and set 
 ```
-Configure::write('Users.auth', false);
+Configure::write('Users.auth', false); 
+## Which file does the above line go in?
 ```
 
 
